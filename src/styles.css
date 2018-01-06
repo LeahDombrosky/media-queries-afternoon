@@ -36,23 +36,7 @@ ul {
   top: 27px;
   font-size: 15px;
 }
-.nav-burger {
-  display: none;
-  background-color: #fed136;
-  color: white;
-  font-size: 14px;
-  border-radius: 4px;
-  border-style: none;
-  width: 77px;
-  height: 38px;
-}
 
-.nav-burger img {
-  width: 13px;
-  height: 14px;
-  font-size: 12px;
-  margin-left: 2px;
-}
 .yellow-button {
   background-color: #fed136;
   border-color: #fed136;
@@ -110,4 +94,34 @@ ul {
 .lorem {
   text-align: center;
   padding-top: 0.5%;
+}
+
+#menu-button {
+  /* padding-left: 50em; */
+  display: none;
+}
+@media screen and (max-width: 760px) {
+  /* CSS for narrow screens */
+
+  /* #menu-button {
+   
+    display: block;
+    padding-bottom: 100;
+  } */
+  /* Hide the drop-down menu */
+  #nav {
+    position: absolute;
+    display: none;
+  }
+
+  /* Each link in the dropdown menu */
+  nav li {
+    display: block;
+    float: none;
+    padding: 10px 0;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border-right: none;
+  }
 }
