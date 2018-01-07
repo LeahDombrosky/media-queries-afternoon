@@ -103,11 +103,6 @@ ul {
 @media screen and (max-width: 760px) {
   /* CSS for narrow screens */
 
-  /* #menu-button {
-   
-    display: block;
-    padding-bottom: 100;
-  } */
   /* Hide the drop-down menu */
   #nav {
     position: absolute;
@@ -123,5 +118,12 @@ ul {
     text-decoration: none;
     color: white;
     border-right: none;
+  }
+
+  #menu-button {
+    display: block;
+    padding-bottom: 100;
+    position: relative;
+    top: 0px;
   }
 }
